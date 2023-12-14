@@ -1,0 +1,17 @@
+3.0.3
+- Upgrade to CubeMX 6.8.0
+- Update to firmware FW U5 1.2.0
+- Upgrade to TouchGFX 4.21.1
+- Add support for STM32CubeIDE
+- Add support "Run target" in TouchGFX Designer
+
+3.0.2
+- Upgrade to CubeMX 6.7
+- Update to firmware FW U5 1.1.1
+- Upgraded to TouchGFX 4.21.0
+
+3.0.1
+- Upgrade to TouchGFX 4.20.0
+
+3.0.0
+- First public alpha version based on TouchGFX 4.19.1 and STM32CubeMX 6.5.0

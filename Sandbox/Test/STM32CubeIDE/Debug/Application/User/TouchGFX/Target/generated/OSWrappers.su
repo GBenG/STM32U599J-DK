@@ -1,0 +1,10 @@
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:48:6:static void touchgfx::OSWrappers::initialize()	24	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:83:6:static void touchgfx::OSWrappers::takeFrameBufferSemaphore()	8	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:94:6:static void touchgfx::OSWrappers::giveFrameBufferSemaphore()	8	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:112:6:static void touchgfx::OSWrappers::tryTakeFrameBufferSemaphore()	0	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:129:6:static void touchgfx::OSWrappers::giveFrameBufferSemaphoreFromISR()	16	static,ignoring_inline_asm
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:152:6:static void touchgfx::OSWrappers::signalVSync()	8	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:175:6:static void touchgfx::OSWrappers::signalRenderingDone()	0	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:186:6:static void touchgfx::OSWrappers::waitForVSync()	8	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:218:6:static void touchgfx::OSWrappers::taskDelay(uint16_t)	0	static
+D:/GIT/STM32U599J-DK/Sandbox/Test/TouchGFX/Target/generated/OSWrappers.cpp:233:6:static void touchgfx::OSWrappers::taskYield()	0	static,ignoring_inline_asm
