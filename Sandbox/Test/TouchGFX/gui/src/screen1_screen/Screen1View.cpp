@@ -1,13 +1,14 @@
 #include <gui/screen1_screen/Screen1View.hpp>
 #include <touchgfx/Color.hpp>
 #include <stdlib.h>
+#include <stdint.h>
 
 #define COLS 24
 #define ROWS 24
 
 int  grid[ROWS][COLS];
 
-//Updater
+// Function to update the game state based on the rules of the Game of Life
 void updateGrid(int grid[ROWS][COLS]) {
     int newGrid[ROWS][COLS];
 
@@ -45,16 +46,16 @@ void updateGrid(int grid[ROWS][COLS]) {
 Screen1View::Screen1View()
 {
 	//Initialize grid with random values
-	for(int r = 0; r < ROWS; r ++ ){
-		for(int c = 0; c < COLS; c ++ ){
+	for(uint8_t r = 0; r < ROWS; r ++ ){
+		for(uint8_t c = 0; c < COLS; c ++ ){
 			grid[c][r] = rand()%2;
 		}
 	}
 
 	//Create cells
-	int index = 0;
-	for(int r = 0; r < ROWS; r ++ ){
-		for(int c = 0; c < COLS; c ++ ){
+	uint16_t index = 0;
+	for(uint8_t r = 0; r < ROWS; r ++ ){
+		for(uint8_t c = 0; c < COLS; c ++ ){
 			box[index].setPosition(0+c*20, 0+r*20, 20, 20);
 			if(grid[c][r] != 0){
 				box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
@@ -67,12 +68,22 @@ Screen1View::Screen1View()
 	}
 }
 
+void Screen1View::setupScreen()
+{
+    Screen1ViewBase::setupScreen();
+}
+
+void Screen1View::tearDownScreen()
+{
+    Screen1ViewBase::tearDownScreen();
+}
+
 void Screen1View::tick_func(){
 
 	//Draw cells
-	int index = 0;
-	for(int r = 0; r < ROWS; r ++ ){
-		for(int c = 0; c < COLS; c ++ ){
+	uint16_t index = 0;
+	for(uint8_t r = 0; r < ROWS; r ++ ){
+		for(uint8_t c = 0; c < COLS; c ++ ){
 			if(grid[c][r] != 0){
 				box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
 			}else{
@@ -87,16 +98,16 @@ void Screen1View::tick_func(){
 	updateGrid(grid);
 
 	//Recover(endless) mode
-	int sum = 0;
-	for(int r = 0; r < ROWS; r ++ ){
-		for(int c = 0; c < COLS; c ++ ){
+	uint16_t sum = 0;
+	for(uint8_t r = 0; r < ROWS; r ++ ){
+		for(uint8_t c = 0; c < COLS; c ++ ){
 			sum += grid[c][r];
 		}
 	}
 	if( sum == 0 ){
 		//Initialize grid with random values
-		for(int r = 0; r < ROWS; r ++ ){
-			for(int c = 0; c < COLS; c ++ ){
+		for(uint8_t r = 0; r < 5; r ++ ){
+			for(uint8_t c = 0; c < 10; c ++ ){
 				grid[c][r] = rand()%2;
 			}
 		}
@@ -106,14 +117,6 @@ void Screen1View::tick_func(){
 	grid[rand()%ROWS][rand()%COLS] = 1;
 }
 
-void Screen1View::setupScreen()
-{
-    Screen1ViewBase::setupScreen();
-}
 
-void Screen1View::tearDownScreen()
-{
-    Screen1ViewBase::tearDownScreen();
-}
 
 

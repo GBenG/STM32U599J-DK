@@ -13,12 +13,12 @@ Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchg
 Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
 Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
 Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	3
-Screen1View.cpp:114:6:virtual void Screen1View::tearDownScreen()	1
+Screen1View.cpp:76:6:virtual void Screen1View::tearDownScreen()	1
 Screen1View.hpp:12:13:Screen1View::~Screen1View()	2
 Screen1View.hpp:12:13:virtual Screen1View::~Screen1View()	1
 Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	2
 Box.hpp:33:5:touchgfx::Box::Box()	1
-Screen1View.cpp:11:6:void updateGrid(int (*)[24])	7
-Screen1View.cpp:70:6:virtual void Screen1View::tick_func()	8
-Screen1View.cpp:45:1:Screen1View::Screen1View()	6
-Screen1View.cpp:109:6:virtual void Screen1View::setupScreen()	1
+Screen1View.cpp:12:6:void updateGrid(int (*)[24])	7
+Screen1View.cpp:81:6:virtual void Screen1View::tick_func()	9
+Screen1View.cpp:46:1:Screen1View::Screen1View()	6
+Screen1View.cpp:71:6:virtual void Screen1View::setupScreen()	1
