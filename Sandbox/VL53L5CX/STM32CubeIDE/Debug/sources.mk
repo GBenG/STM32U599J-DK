@@ -40,6 +40,7 @@ Application/User/TouchGFX/Target \
 Application/User/TouchGFX/Target/generated \
 Application/User/generated \
 Application/User/gui \
+Drivers/BSP/Components/VL53L5CX_ULD_API/src \
 Drivers/BSP/Components \
 Drivers/BSP/STM32U5x9J-DK \
 Drivers/CMSIS \

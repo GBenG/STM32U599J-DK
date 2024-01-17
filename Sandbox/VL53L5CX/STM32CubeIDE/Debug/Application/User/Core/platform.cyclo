@@ -1,0 +1,7 @@
+platform.c:67:9:RdByte	1
+platform.c:85:9:WrByte	1
+platform.c:101:9:WrMulti	1
+platform.c:112:9:RdMulti	1
+platform.c:128:9:Reset_Sensor	1
+platform.c:145:6:SwapBuffer	2
+platform.c:164:9:WaitMs	1

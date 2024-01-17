@@ -165,7 +165,7 @@ d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externalt
 d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-malloc.o)
                               d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libstdc++_nano.a(del_op.o) (free)
 d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                              D:/GIT/STM32U599J-DK/Sandbox/Test/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc\libtouchgfx-float-abi-hard.a(LCD.o) (memcpy)
+                              ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o (memcpy)
 d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-memset.o)
                               d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/crt0.o (memset)
 d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard\libc_nano.a(lib_a-nano-freer.o)
@@ -586,6 +586,168 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Application/User/Core/main.o
  .debug_macro   0x0000000000000000      0x76b ./Application/User/Core/main.o
  .debug_macro   0x0000000000000000      0x425 ./Application/User/Core/main.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .group         0x0000000000000000        0xc ./Application/User/Core/platform.o
+ .text          0x0000000000000000        0x0 ./Application/User/Core/platform.o
+ .data          0x0000000000000000        0x0 ./Application/User/Core/platform.o
+ .bss           0x0000000000000000        0x0 ./Application/User/Core/platform.o
+ .text.RdByte   0x0000000000000000       0x68 ./Application/User/Core/platform.o
+ .text.WrByte   0x0000000000000000       0x50 ./Application/User/Core/platform.o
+ .text.WrMulti  0x0000000000000000       0x40 ./Application/User/Core/platform.o
+ .text.RdMulti  0x0000000000000000       0x64 ./Application/User/Core/platform.o
+ .text.Reset_Sensor
+                0x0000000000000000       0x22 ./Application/User/Core/platform.o
+ .text.SwapBuffer
+                0x0000000000000000       0x6c ./Application/User/Core/platform.o
+ .text.WaitMs   0x0000000000000000       0x1a ./Application/User/Core/platform.o
+ .debug_info    0x0000000000000000      0xbdb ./Application/User/Core/platform.o
+ .debug_abbrev  0x0000000000000000      0x1c0 ./Application/User/Core/platform.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Application/User/Core/platform.o
+ .debug_ranges  0x0000000000000000       0x40 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x33f ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0xa90 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x22 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x8e ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x51 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x103 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x6a ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x1df ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x52 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x1e ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x3c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x34 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x174 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x16 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x43 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x34 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x58 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x71 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x12a ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x341 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x35 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x20 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x2e ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x42 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x29 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xfb ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000     0x1336 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x5e ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000    0x2b301 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x6d ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x216 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000     0x3882 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x19b ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x5d ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000     0x1d85 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x948 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x15f ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x2df ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xc8 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xb6 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x5eb ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x48d ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xd6 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x26a ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x7d5 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x1cd ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xc7 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x4c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x432 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x95 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x11c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x23a ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x123 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xa5 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x198 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0xd6 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x51e ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x5d5 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x1c ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x520 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0xbc5 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x5b2 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x1d3 ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000       0x6a ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x76b ./Application/User/Core/platform.o
+ .debug_macro   0x0000000000000000      0x425 ./Application/User/Core/platform.o
+ .debug_line    0x0000000000000000      0xa98 ./Application/User/Core/platform.o
+ .debug_str     0x0000000000000000   0x176f36 ./Application/User/Core/platform.o
+ .comment       0x0000000000000000       0x51 ./Application/User/Core/platform.o
+ .debug_frame   0x0000000000000000      0x110 ./Application/User/Core/platform.o
+ .ARM.attributes
+                0x0000000000000000       0x3a ./Application/User/Core/platform.o
  .group         0x0000000000000000        0xc ./Application/User/Core/stm32u5xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Application/User/Core/stm32u5xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Application/User/Core/stm32u5xx_hal_msp.o
@@ -1591,6 +1753,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./Application/User/TouchGFX/Target/KeySampler.o
  .debug_macro   0x0000000000000000      0x12a ./Application/User/TouchGFX/Target/KeySampler.o
  .debug_macro   0x0000000000000000      0x364 ./Application/User/TouchGFX/Target/KeySampler.o
+ .debug_macro   0x0000000000000000       0x10 ./Application/User/TouchGFX/Target/KeySampler.o
  .debug_macro   0x0000000000000000       0x35 ./Application/User/TouchGFX/Target/KeySampler.o
  .debug_macro   0x0000000000000000       0x20 ./Application/User/TouchGFX/Target/KeySampler.o
  .debug_macro   0x0000000000000000      0x216 ./Application/User/TouchGFX/Target/KeySampler.o
@@ -4899,6 +5062,743 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x29 ./Application/User/gui/Screen1View.o
  .debug_macro   0x0000000000000000       0x1c ./Application/User/gui/Screen1View.o
  .debug_macro   0x0000000000000000       0xde ./Application/User/gui/Screen1View.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .data          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .bss           0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .rodata.VL53L5CX_FIRMWARE
+                0x0000000000000000    0x15000 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .rodata.VL53L5CX_DEFAULT_CONFIGURATION
+                0x0000000000000000      0x3cc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .rodata.VL53L5CX_DEFAULT_XTALK
+                0x0000000000000000      0x308 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .rodata.VL53L5CX_GET_NVM_CMD
+                0x0000000000000000       0x28 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text._vl53l5cx_poll_for_answer
+                0x0000000000000000       0xa0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text._vl53l5cx_poll_for_mcu_boot
+                0x0000000000000000       0x82 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .rodata        0x0000000000000000       0x6c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text._vl53l5cx_send_offset_data
+                0x0000000000000000      0x398 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text._vl53l5cx_send_xtalk_data
+                0x0000000000000000      0x298 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_is_alive
+                0x0000000000000000       0x92 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_init
+                0x0000000000000000      0x8d8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_i2c_address
+                0x0000000000000000       0x6c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_power_mode
+                0x0000000000000000       0x86 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_power_mode
+                0x0000000000000000       0xfc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_start_ranging
+                0x0000000000000000      0x2f4 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_stop_ranging
+                0x0000000000000000      0x1a0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_check_data_ready
+                0x0000000000000000       0xa0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_ranging_data
+                0x0000000000000000      0x438 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_resolution
+                0x0000000000000000       0x4a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_resolution
+                0x0000000000000000      0x1a8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_ranging_frequency_hz
+                0x0000000000000000       0x3e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_ranging_frequency_hz
+                0x0000000000000000       0x42 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_integration_time_ms
+                0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_integration_time_ms
+                0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_sharpener_percent
+                0x0000000000000000       0x5c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_sharpener_percent
+                0x0000000000000000       0x70 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_target_order
+                0x0000000000000000       0x3e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_target_order
+                0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_get_ranging_mode
+                0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_set_ranging_mode
+                0x0000000000000000       0xae ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_enable_internal_cp
+                0x0000000000000000       0x72 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_disable_internal_cp
+                0x0000000000000000       0x72 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_dci_read_data
+                0x0000000000000000      0x114 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_dci_write_data
+                0x0000000000000000      0x13c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .text.vl53l5cx_dci_replace_data
+                0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_info    0x0000000000000000     0x1293 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_abbrev  0x0000000000000000      0x291 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_aranges
+                0x0000000000000000      0x108 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_ranges  0x0000000000000000       0xf8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x37f ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0xa90 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x1e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x94 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x3c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x10e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x8d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x57 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x71 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x341 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x29 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x35 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x20 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x42 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x29 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xfb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000     0x1336 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000    0x2b301 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x6d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x216 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000     0x3882 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x19b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x5d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000     0x1d85 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x948 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x15f ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x2df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xc8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xb6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x5eb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x48d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x26a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x7d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x1cd ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xc7 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x432 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x95 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x11c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x23a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x123 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xa5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x198 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x51e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x5d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x520 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0xbc5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x5b2 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x1d3 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x76b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x425 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000      0x1e9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_line    0x0000000000000000     0x19f9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_str     0x0000000000000000   0x177ed1 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .comment       0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .debug_frame   0x0000000000000000      0x46c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .ARM.attributes
+                0x0000000000000000       0x3a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .text          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .data          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .bss           0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .text.vl53l5cx_get_detection_thresholds_enable
+                0x0000000000000000       0x3e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .text.vl53l5cx_set_detection_thresholds_enable
+                0x0000000000000000       0x8c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .text.vl53l5cx_get_detection_thresholds
+                0x0000000000000000      0x300 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .rodata        0x0000000000000000        0x8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .text.vl53l5cx_set_detection_thresholds
+                0x0000000000000000      0x2c0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_info    0x0000000000000000      0x456 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_abbrev  0x0000000000000000      0x14b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_aranges
+                0x0000000000000000       0x38 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_ranges  0x0000000000000000       0x28 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x35d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0xa90 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x8e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x52 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x1e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x3c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x174 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x71 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x341 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x35 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x20 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x42 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x29 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xfb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000     0x1336 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000    0x2b301 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x6d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x216 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000     0x3882 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x19b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x5d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000     0x1d85 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x948 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x15f ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x2df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xc8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xb6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x5eb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x48d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x26a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x7d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x1cd ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xc7 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x432 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x95 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x11c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x23a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x123 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xa5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x198 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x51e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x5d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x520 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0xbc5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x5b2 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x1d3 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x76b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x425 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000      0x1e9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_macro   0x0000000000000000       0x8e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_line    0x0000000000000000      0xbbe ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_str     0x0000000000000000   0x177bf9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .comment       0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .debug_frame   0x0000000000000000       0xac ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .ARM.attributes
+                0x0000000000000000       0x3a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .text          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .data          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .bss           0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .text.vl53l5cx_motion_indicator_init
+                0x0000000000000000       0xa0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .text.vl53l5cx_motion_indicator_set_distance_motion
+                0x0000000000000000       0xfc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .text.vl53l5cx_motion_indicator_set_resolution
+                0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_info    0x0000000000000000      0x4bf ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_abbrev  0x0000000000000000      0x169 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_ranges  0x0000000000000000       0x20 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x34c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0xa90 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x1e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x94 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x3c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x174 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x57 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x71 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x341 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x19b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x35 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x20 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x42 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x29 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xfb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000     0x1336 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000    0x2b301 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x6d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x216 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000     0x3882 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x5d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000     0x1d85 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x948 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x15f ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x2df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xc8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xb6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x5eb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x48d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x26a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x7d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x1cd ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xc7 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x432 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x95 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x11c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x23a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x123 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xa5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x198 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x51e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x5d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x520 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0xbc5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x5b2 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x1d3 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x76b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x425 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_macro   0x0000000000000000      0x1e9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_line    0x0000000000000000      0xba8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_str     0x0000000000000000   0x1778d8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .comment       0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .debug_frame   0x0000000000000000       0x7c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .ARM.attributes
+                0x0000000000000000       0x3a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .group         0x0000000000000000        0xc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .data          0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .bss           0x0000000000000000        0x0 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .rodata.VL53L5CX_GET_XTALK_CMD
+                0x0000000000000000       0x48 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .rodata.VL53L5CX_CALIBRATE_XTALK
+                0x0000000000000000      0x3d8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text._vl53l5cx_poll_for_answer
+                0x0000000000000000       0x7c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .rodata        0x0000000000000000       0x5c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text._vl53l5cx_program_output_config
+                0x0000000000000000      0x1cc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text.vl53l5cx_calibrate_xtalk
+                0x0000000000000000      0x4c8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text.vl53l5cx_get_caldata_xtalk
+                0x0000000000000000       0xf4 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text.vl53l5cx_set_caldata_xtalk
+                0x0000000000000000       0x54 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text.vl53l5cx_get_xtalk_margin
+                0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .text.vl53l5cx_set_xtalk_margin
+                0x0000000000000000       0x60 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_info    0x0000000000000000      0x8ed ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_abbrev  0x0000000000000000      0x233 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_aranges
+                0x0000000000000000       0x50 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_ranges  0x0000000000000000       0x40 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x35d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0xa90 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x8e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x52 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x1e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x3c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x174 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x71 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x341 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x35 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x20 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x42 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x29 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xfb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000     0x1336 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x5e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000    0x2b301 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x6d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x216 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000     0x3882 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x19b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x5d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000     0x1d85 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x948 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x15f ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x2df ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xc8 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xb6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x5eb ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x48d ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x26a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x7d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x1cd ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xc7 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x4c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x432 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x95 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x11c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x23a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x123 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xa5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x198 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x51e ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x5d5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x520 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0xbc5 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x5b2 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x1d3 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x76b ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x425 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000      0x1e9 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_line    0x0000000000000000      0xdcc ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_str     0x0000000000000000   0x177ac3 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .comment       0x0000000000000000       0x51 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .debug_frame   0x0000000000000000      0x114 ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
+ .ARM.attributes
+                0x0000000000000000       0x3a ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
  .group         0x0000000000000000        0xc ./Drivers/BSP/Components/aps512xx.o
  .group         0x0000000000000000        0xc ./Drivers/BSP/Components/aps512xx.o
  .group         0x0000000000000000        0xc ./Drivers/BSP/Components/aps512xx.o
@@ -25543,6 +26443,7 @@ LOAD d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
 LOAD ./Application/User/AZURE_RTOS/App/app_azure_rtos.o
 LOAD ./Application/User/Core/app_threadx.o
 LOAD ./Application/User/Core/main.o
+LOAD ./Application/User/Core/platform.o
 LOAD ./Application/User/Core/stm32u5xx_hal_msp.o
 LOAD ./Application/User/Core/stm32u5xx_hal_timebase_tim.o
 LOAD ./Application/User/Core/stm32u5xx_it.o
@@ -25587,6 +26488,10 @@ LOAD ./Application/User/gui/FrontendApplication.o
 LOAD ./Application/User/gui/Model.o
 LOAD ./Application/User/gui/Screen1Presenter.o
 LOAD ./Application/User/gui/Screen1View.o
+LOAD ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_api.o
+LOAD ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_detection_thresholds.o
+LOAD ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_motion_indicator.o
+LOAD ./Drivers/BSP/Components/VL53L5CX_ULD_API/src/vl53l5cx_plugin_xtalk.o
 LOAD ./Drivers/BSP/Components/aps512xx.o
 LOAD ./Drivers/BSP/Components/mx25um51245g.o
 LOAD ./Drivers/BSP/Components/sitronix.o
@@ -31102,7 +32007,7 @@ LOAD d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_ranges  0x0000000000003930       0x10 ./Middlewares/ThreadX/Core/txe_semaphore_put.o
  .debug_ranges  0x0000000000003940       0x10 ./Middlewares/ThreadX/Core/txe_thread_create.o
 
-.debug_macro    0x0000000000000000    0x51647
+.debug_macro    0x0000000000000000    0x51637
  .debug_macro   0x0000000000000000      0x3aa ./Application/User/AZURE_RTOS/App/app_azure_rtos.o
  .debug_macro   0x00000000000003aa      0xa90 ./Application/User/AZURE_RTOS/App/app_azure_rtos.o
  .debug_macro   0x0000000000000e3a      0x216 ./Application/User/AZURE_RTOS/App/app_azure_rtos.o
@@ -31254,150 +32159,149 @@ LOAD d:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_macro   0x0000000000040faf      0x3c7 ./Application/User/TouchGFX/Target/Buttons.o
  .debug_macro   0x0000000000041376      0x2af ./Application/User/TouchGFX/Target/CortexMMCUInstrumentation.o
  .debug_macro   0x0000000000041625      0x413 ./Application/User/TouchGFX/Target/KeySampler.o
- .debug_macro   0x0000000000041a38       0x10 ./Application/User/TouchGFX/Target/KeySampler.o
- .debug_macro   0x0000000000041a48      0x5bb ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x0000000000042003       0x9a ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x000000000004209d      0x19e ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x000000000004223b       0xc8 ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x0000000000042303       0x16 ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x0000000000042319       0x58 ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x0000000000042371       0x2e ./Application/User/TouchGFX/Target/STM32TouchController.o
- .debug_macro   0x000000000004239f      0x3ae ./Application/User/TouchGFX/Target/TouchGFXGPIO.o
- .debug_macro   0x000000000004274d      0x615 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042d62       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042d72       0x1c ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042d8e       0xde ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042e6c       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042e7c      0x137 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042fb3       0x16 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042fc9       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042fd9       0x26 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000042fff       0x34 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000043033      0x3cd ./Application/User/TouchGFX/Target/TouchGFXHAL.o
- .debug_macro   0x0000000000043400      0x5d7 ./Application/User/TouchGFX/Target/generated/OSWrappers.o
- .debug_macro   0x00000000000439d7       0xf0 ./Application/User/TouchGFX/Target/generated/OSWrappers.o
- .debug_macro   0x0000000000043ac7       0x2f ./Application/User/TouchGFX/Target/generated/OSWrappers.o
- .debug_macro   0x0000000000043af6      0x573 ./Application/User/TouchGFX/Target/generated/STM32DMA.o
- .debug_macro   0x0000000000044069      0x877 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x00000000000448e0       0x1c ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x00000000000448fc       0x10 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x000000000004490c       0x41 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x000000000004494d       0x12 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x000000000004495f      0x203 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044b62       0xe8 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044c4a       0x3a ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044c84       0xba ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044d3e       0xd0 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044e0e       0xd0 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044ede       0x34 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
- .debug_macro   0x0000000000044f12      0x79a ./Application/User/TouchGFX/Target/generated/TouchGFXGeneratedHAL.o
- .debug_macro   0x00000000000456ac      0x4dc ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045b88       0x22 ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045baa       0x20 ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045bca      0x209 ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045dd3       0xee ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045ec1       0x16 ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045ed7       0x16 ./Application/User/TouchGFX/Target/generated/nema_hal.o
- .debug_macro   0x0000000000045eed      0x116 ./Application/User/generated/ApplicationFontProvider.o
- .debug_macro   0x0000000000046003       0xc7 ./Application/User/generated/BitmapDatabase.o
- .debug_macro   0x00000000000460ca      0x120 ./Application/User/generated/CachedFont.o
- .debug_macro   0x00000000000461ea       0xb3 ./Application/User/generated/Font_verdana_10_4bpp_0.o
- .debug_macro   0x000000000004629d       0xb3 ./Application/User/generated/Font_verdana_20_4bpp_0.o
- .debug_macro   0x0000000000046350       0xb3 ./Application/User/generated/Font_verdana_40_4bpp_0.o
- .debug_macro   0x0000000000046403      0x435 ./Application/User/generated/FrontendApplicationBase.o
- .debug_macro   0x0000000000046838       0xe4 ./Application/User/generated/GeneratedFont.o
- .debug_macro   0x000000000004691c       0xd0 ./Application/User/generated/Kerning_verdana_10_4bpp.o
- .debug_macro   0x00000000000469ec       0xd0 ./Application/User/generated/Kerning_verdana_20_4bpp.o
- .debug_macro   0x0000000000046abc       0xd0 ./Application/User/generated/Kerning_verdana_40_4bpp.o
- .debug_macro   0x0000000000046b8c       0xcc ./Application/User/generated/LanguageGb.o
- .debug_macro   0x0000000000046c58      0x3ef ./Application/User/generated/Screen1ViewBase.o
- .debug_macro   0x0000000000047047       0xe4 ./Application/User/generated/Table_verdana_10_4bpp.o
- .debug_macro   0x000000000004712b       0xe4 ./Application/User/generated/Table_verdana_20_4bpp.o
- .debug_macro   0x000000000004720f       0xe4 ./Application/User/generated/Table_verdana_40_4bpp.o
- .debug_macro   0x00000000000472f3      0x2c3 ./Application/User/generated/Texts.o
- .debug_macro   0x00000000000475b6      0x102 ./Application/User/generated/TypedTextDatabase.o
- .debug_macro   0x00000000000476b8      0x3b3 ./Application/User/gui/FrontendApplication.o
- .debug_macro   0x0000000000047a6b       0x25 ./Application/User/gui/Model.o
- .debug_macro   0x0000000000047a90      0x3ef ./Application/User/gui/Screen1Presenter.o
- .debug_macro   0x0000000000047e7f      0x490 ./Application/User/gui/Screen1View.o
- .debug_macro   0x000000000004830f      0x317 ./Drivers/BSP/Components/aps512xx.o
- .debug_macro   0x0000000000048626       0x22 ./Drivers/BSP/Components/aps512xx.o
- .debug_macro   0x0000000000048648      0x317 ./Drivers/BSP/Components/mx25um51245g.o
- .debug_macro   0x000000000004895f       0x28 ./Drivers/BSP/Components/mx25um51245g.o
- .debug_macro   0x0000000000048987       0x8e ./Drivers/BSP/Components/sitronix.o
- .debug_macro   0x0000000000048a15       0x6d ./Drivers/BSP/Components/sitronix_reg.o
- .debug_macro   0x0000000000048a82      0x374 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.o
- .debug_macro   0x0000000000048df6      0x198 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.o
- .debug_macro   0x0000000000048f8e      0x338 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_hspi.o
- .debug_macro   0x00000000000492c6      0x338 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ospi.o
- .debug_macro   0x00000000000495fe      0x368 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ts.o
- .debug_macro   0x0000000000049966      0x300 ./Drivers/CMSIS/system_stm32u5xx.o
- .debug_macro   0x0000000000049c66      0x31d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
- .debug_macro   0x0000000000049f83      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
- .debug_macro   0x000000000004a27c      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
- .debug_macro   0x000000000004a575      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
- .debug_macro   0x000000000004a86e      0x341 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
- .debug_macro   0x000000000004abaf      0x2fa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
- .debug_macro   0x000000000004aea9      0x308 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
- .debug_macro   0x000000000004b1b1      0x34e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dsi.o
- .debug_macro   0x000000000004b4ff      0x32e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
- .debug_macro   0x000000000004b82d      0x307 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
- .debug_macro   0x000000000004bb34      0x3c5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
- .debug_macro   0x000000000004bef9      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
- .debug_macro   0x000000000004c1f2      0x329 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
- .debug_macro   0x000000000004c51b      0x301 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
- .debug_macro   0x000000000004c81c      0x32b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
- .debug_macro   0x000000000004cb47      0x3ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
- .debug_macro   0x000000000004cf46      0x45a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
- .debug_macro   0x000000000004d3a0      0x301 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
- .debug_macro   0x000000000004d6a1      0x2ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
- .debug_macro   0x000000000004d9a0      0x340 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
- .debug_macro   0x000000000004dce0      0x30b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_ll_dlyb.o
- .debug_macro   0x000000000004dfeb      0x171 ./Middlewares/ThreadX/Core/tx_byte_allocate.o
- .debug_macro   0x000000000004e15c      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_cleanup.o
- .debug_macro   0x000000000004e2cd      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_create.o
- .debug_macro   0x000000000004e43e      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_search.o
- .debug_macro   0x000000000004e5af      0x1bf ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e76e       0x34 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e7a2       0x23 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e7c5       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e7ee       0x2f ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e81d       0x35 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e852       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e87b       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e8a4       0x3b ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
- .debug_macro   0x000000000004e8df      0x17a ./Middlewares/ThreadX/Core/tx_initialize_kernel_enter.o
- .debug_macro   0x000000000004ea59      0x171 ./Middlewares/ThreadX/Core/tx_queue_cleanup.o
- .debug_macro   0x000000000004ebca       0x23 ./Middlewares/ThreadX/Core/tx_queue_cleanup.o
- .debug_macro   0x000000000004ebed      0x171 ./Middlewares/ThreadX/Core/tx_queue_create.o
- .debug_macro   0x000000000004ed5e      0x17a ./Middlewares/ThreadX/Core/tx_queue_receive.o
- .debug_macro   0x000000000004eed8      0x17a ./Middlewares/ThreadX/Core/tx_queue_send.o
- .debug_macro   0x000000000004f052      0x171 ./Middlewares/ThreadX/Core/tx_semaphore_cleanup.o
- .debug_macro   0x000000000004f1c3      0x171 ./Middlewares/ThreadX/Core/tx_semaphore_create.o
- .debug_macro   0x000000000004f334      0x17a ./Middlewares/ThreadX/Core/tx_semaphore_get.o
- .debug_macro   0x000000000004f4ae      0x17a ./Middlewares/ThreadX/Core/tx_semaphore_put.o
- .debug_macro   0x000000000004f628      0x17a ./Middlewares/ThreadX/Core/tx_thread_create.o
- .debug_macro   0x000000000004f7a2      0x177 ./Middlewares/ThreadX/Core/tx_thread_initialize.o
- .debug_macro   0x000000000004f919      0x168 ./Middlewares/ThreadX/Core/tx_thread_shell_entry.o
- .debug_macro   0x000000000004fa81      0x168 ./Middlewares/ThreadX/Core/tx_thread_system_preempt_check.o
- .debug_macro   0x000000000004fbe9      0x17a ./Middlewares/ThreadX/Core/tx_thread_system_resume.o
- .debug_macro   0x000000000004fd63      0x17a ./Middlewares/ThreadX/Core/tx_thread_system_suspend.o
- .debug_macro   0x000000000004fedd      0x17a ./Middlewares/ThreadX/Core/tx_thread_time_slice.o
- .debug_macro   0x0000000000050057      0x171 ./Middlewares/ThreadX/Core/tx_thread_timeout.o
- .debug_macro   0x00000000000501c8      0x171 ./Middlewares/ThreadX/Core/tx_timer_expiration_process.o
- .debug_macro   0x0000000000050339      0x171 ./Middlewares/ThreadX/Core/tx_timer_initialize.o
- .debug_macro   0x00000000000504aa      0x168 ./Middlewares/ThreadX/Core/tx_timer_system_activate.o
- .debug_macro   0x0000000000050612      0x168 ./Middlewares/ThreadX/Core/tx_timer_system_deactivate.o
- .debug_macro   0x000000000005077a      0x171 ./Middlewares/ThreadX/Core/tx_timer_thread_entry.o
- .debug_macro   0x00000000000508eb      0x183 ./Middlewares/ThreadX/Core/txe_byte_allocate.o
- .debug_macro   0x0000000000050a6e      0x183 ./Middlewares/ThreadX/Core/txe_byte_pool_create.o
- .debug_macro   0x0000000000050bf1      0x183 ./Middlewares/ThreadX/Core/txe_queue_create.o
- .debug_macro   0x0000000000050d74      0x17a ./Middlewares/ThreadX/Core/txe_queue_receive.o
- .debug_macro   0x0000000000050eee      0x17a ./Middlewares/ThreadX/Core/txe_queue_send.o
- .debug_macro   0x0000000000051068      0x183 ./Middlewares/ThreadX/Core/txe_semaphore_create.o
- .debug_macro   0x00000000000511eb      0x17a ./Middlewares/ThreadX/Core/txe_semaphore_get.o
- .debug_macro   0x0000000000051365      0x168 ./Middlewares/ThreadX/Core/txe_semaphore_put.o
- .debug_macro   0x00000000000514cd      0x17a ./Middlewares/ThreadX/Core/txe_thread_create.o
+ .debug_macro   0x0000000000041a38      0x5bb ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x0000000000041ff3       0x9a ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x000000000004208d      0x19e ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x000000000004222b       0xc8 ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x00000000000422f3       0x16 ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x0000000000042309       0x58 ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x0000000000042361       0x2e ./Application/User/TouchGFX/Target/STM32TouchController.o
+ .debug_macro   0x000000000004238f      0x3ae ./Application/User/TouchGFX/Target/TouchGFXGPIO.o
+ .debug_macro   0x000000000004273d      0x615 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042d52       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042d62       0x1c ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042d7e       0xde ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042e5c       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042e6c      0x137 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042fa3       0x16 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042fb9       0x10 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042fc9       0x26 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000042fef       0x34 ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x0000000000043023      0x3cd ./Application/User/TouchGFX/Target/TouchGFXHAL.o
+ .debug_macro   0x00000000000433f0      0x5d7 ./Application/User/TouchGFX/Target/generated/OSWrappers.o
+ .debug_macro   0x00000000000439c7       0xf0 ./Application/User/TouchGFX/Target/generated/OSWrappers.o
+ .debug_macro   0x0000000000043ab7       0x2f ./Application/User/TouchGFX/Target/generated/OSWrappers.o
+ .debug_macro   0x0000000000043ae6      0x573 ./Application/User/TouchGFX/Target/generated/STM32DMA.o
+ .debug_macro   0x0000000000044059      0x877 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x00000000000448d0       0x1c ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x00000000000448ec       0x10 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x00000000000448fc       0x41 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x000000000004493d       0x12 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x000000000004494f      0x203 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044b52       0xe8 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044c3a       0x3a ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044c74       0xba ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044d2e       0xd0 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044dfe       0xd0 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044ece       0x34 ./Application/User/TouchGFX/Target/generated/TouchGFXConfiguration.o
+ .debug_macro   0x0000000000044f02      0x79a ./Application/User/TouchGFX/Target/generated/TouchGFXGeneratedHAL.o
+ .debug_macro   0x000000000004569c      0x4dc ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045b78       0x22 ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045b9a       0x20 ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045bba      0x209 ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045dc3       0xee ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045eb1       0x16 ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045ec7       0x16 ./Application/User/TouchGFX/Target/generated/nema_hal.o
+ .debug_macro   0x0000000000045edd      0x116 ./Application/User/generated/ApplicationFontProvider.o
+ .debug_macro   0x0000000000045ff3       0xc7 ./Application/User/generated/BitmapDatabase.o
+ .debug_macro   0x00000000000460ba      0x120 ./Application/User/generated/CachedFont.o
+ .debug_macro   0x00000000000461da       0xb3 ./Application/User/generated/Font_verdana_10_4bpp_0.o
+ .debug_macro   0x000000000004628d       0xb3 ./Application/User/generated/Font_verdana_20_4bpp_0.o
+ .debug_macro   0x0000000000046340       0xb3 ./Application/User/generated/Font_verdana_40_4bpp_0.o
+ .debug_macro   0x00000000000463f3      0x435 ./Application/User/generated/FrontendApplicationBase.o
+ .debug_macro   0x0000000000046828       0xe4 ./Application/User/generated/GeneratedFont.o
+ .debug_macro   0x000000000004690c       0xd0 ./Application/User/generated/Kerning_verdana_10_4bpp.o
+ .debug_macro   0x00000000000469dc       0xd0 ./Application/User/generated/Kerning_verdana_20_4bpp.o
+ .debug_macro   0x0000000000046aac       0xd0 ./Application/User/generated/Kerning_verdana_40_4bpp.o
+ .debug_macro   0x0000000000046b7c       0xcc ./Application/User/generated/LanguageGb.o
+ .debug_macro   0x0000000000046c48      0x3ef ./Application/User/generated/Screen1ViewBase.o
+ .debug_macro   0x0000000000047037       0xe4 ./Application/User/generated/Table_verdana_10_4bpp.o
+ .debug_macro   0x000000000004711b       0xe4 ./Application/User/generated/Table_verdana_20_4bpp.o
+ .debug_macro   0x00000000000471ff       0xe4 ./Application/User/generated/Table_verdana_40_4bpp.o
+ .debug_macro   0x00000000000472e3      0x2c3 ./Application/User/generated/Texts.o
+ .debug_macro   0x00000000000475a6      0x102 ./Application/User/generated/TypedTextDatabase.o
+ .debug_macro   0x00000000000476a8      0x3b3 ./Application/User/gui/FrontendApplication.o
+ .debug_macro   0x0000000000047a5b       0x25 ./Application/User/gui/Model.o
+ .debug_macro   0x0000000000047a80      0x3ef ./Application/User/gui/Screen1Presenter.o
+ .debug_macro   0x0000000000047e6f      0x490 ./Application/User/gui/Screen1View.o
+ .debug_macro   0x00000000000482ff      0x317 ./Drivers/BSP/Components/aps512xx.o
+ .debug_macro   0x0000000000048616       0x22 ./Drivers/BSP/Components/aps512xx.o
+ .debug_macro   0x0000000000048638      0x317 ./Drivers/BSP/Components/mx25um51245g.o
+ .debug_macro   0x000000000004894f       0x28 ./Drivers/BSP/Components/mx25um51245g.o
+ .debug_macro   0x0000000000048977       0x8e ./Drivers/BSP/Components/sitronix.o
+ .debug_macro   0x0000000000048a05       0x6d ./Drivers/BSP/Components/sitronix_reg.o
+ .debug_macro   0x0000000000048a72      0x374 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.o
+ .debug_macro   0x0000000000048de6      0x198 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.o
+ .debug_macro   0x0000000000048f7e      0x338 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_hspi.o
+ .debug_macro   0x00000000000492b6      0x338 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ospi.o
+ .debug_macro   0x00000000000495ee      0x368 ./Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ts.o
+ .debug_macro   0x0000000000049956      0x300 ./Drivers/CMSIS/system_stm32u5xx.o
+ .debug_macro   0x0000000000049c56      0x31d ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal.o
+ .debug_macro   0x0000000000049f73      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_cortex.o
+ .debug_macro   0x000000000004a26c      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc.o
+ .debug_macro   0x000000000004a565      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_crc_ex.o
+ .debug_macro   0x000000000004a85e      0x341 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dcache.o
+ .debug_macro   0x000000000004ab9f      0x2fa ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma.o
+ .debug_macro   0x000000000004ae99      0x308 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dma2d.o
+ .debug_macro   0x000000000004b1a1      0x34e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_dsi.o
+ .debug_macro   0x000000000004b4ef      0x32e ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpio.o
+ .debug_macro   0x000000000004b81d      0x307 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_gpu2d.o
+ .debug_macro   0x000000000004bb24      0x3c5 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c.o
+ .debug_macro   0x000000000004bee9      0x2f9 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_i2c_ex.o
+ .debug_macro   0x000000000004c1e2      0x329 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_icache.o
+ .debug_macro   0x000000000004c50b      0x301 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_ltdc.o
+ .debug_macro   0x000000000004c80c      0x32b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_pwr_ex.o
+ .debug_macro   0x000000000004cb37      0x3ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc.o
+ .debug_macro   0x000000000004cf36      0x45a ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_rcc_ex.o
+ .debug_macro   0x000000000004d390      0x301 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim.o
+ .debug_macro   0x000000000004d691      0x2ff ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_tim_ex.o
+ .debug_macro   0x000000000004d990      0x340 ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_hal_xspi.o
+ .debug_macro   0x000000000004dcd0      0x30b ./Drivers/STM32U5xx_HAL_Driver/stm32u5xx_ll_dlyb.o
+ .debug_macro   0x000000000004dfdb      0x171 ./Middlewares/ThreadX/Core/tx_byte_allocate.o
+ .debug_macro   0x000000000004e14c      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_cleanup.o
+ .debug_macro   0x000000000004e2bd      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_create.o
+ .debug_macro   0x000000000004e42e      0x171 ./Middlewares/ThreadX/Core/tx_byte_pool_search.o
+ .debug_macro   0x000000000004e59f      0x1bf ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e75e       0x34 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e792       0x23 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e7b5       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e7de       0x2f ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e80d       0x35 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e842       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e86b       0x29 ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e894       0x3b ./Middlewares/ThreadX/Core/tx_initialize_high_level.o
+ .debug_macro   0x000000000004e8cf      0x17a ./Middlewares/ThreadX/Core/tx_initialize_kernel_enter.o
+ .debug_macro   0x000000000004ea49      0x171 ./Middlewares/ThreadX/Core/tx_queue_cleanup.o
+ .debug_macro   0x000000000004ebba       0x23 ./Middlewares/ThreadX/Core/tx_queue_cleanup.o
+ .debug_macro   0x000000000004ebdd      0x171 ./Middlewares/ThreadX/Core/tx_queue_create.o
+ .debug_macro   0x000000000004ed4e      0x17a ./Middlewares/ThreadX/Core/tx_queue_receive.o
+ .debug_macro   0x000000000004eec8      0x17a ./Middlewares/ThreadX/Core/tx_queue_send.o
+ .debug_macro   0x000000000004f042      0x171 ./Middlewares/ThreadX/Core/tx_semaphore_cleanup.o
+ .debug_macro   0x000000000004f1b3      0x171 ./Middlewares/ThreadX/Core/tx_semaphore_create.o
+ .debug_macro   0x000000000004f324      0x17a ./Middlewares/ThreadX/Core/tx_semaphore_get.o
+ .debug_macro   0x000000000004f49e      0x17a ./Middlewares/ThreadX/Core/tx_semaphore_put.o
+ .debug_macro   0x000000000004f618      0x17a ./Middlewares/ThreadX/Core/tx_thread_create.o
+ .debug_macro   0x000000000004f792      0x177 ./Middlewares/ThreadX/Core/tx_thread_initialize.o
+ .debug_macro   0x000000000004f909      0x168 ./Middlewares/ThreadX/Core/tx_thread_shell_entry.o
+ .debug_macro   0x000000000004fa71      0x168 ./Middlewares/ThreadX/Core/tx_thread_system_preempt_check.o
+ .debug_macro   0x000000000004fbd9      0x17a ./Middlewares/ThreadX/Core/tx_thread_system_resume.o
+ .debug_macro   0x000000000004fd53      0x17a ./Middlewares/ThreadX/Core/tx_thread_system_suspend.o
+ .debug_macro   0x000000000004fecd      0x17a ./Middlewares/ThreadX/Core/tx_thread_time_slice.o
+ .debug_macro   0x0000000000050047      0x171 ./Middlewares/ThreadX/Core/tx_thread_timeout.o
+ .debug_macro   0x00000000000501b8      0x171 ./Middlewares/ThreadX/Core/tx_timer_expiration_process.o
+ .debug_macro   0x0000000000050329      0x171 ./Middlewares/ThreadX/Core/tx_timer_initialize.o
+ .debug_macro   0x000000000005049a      0x168 ./Middlewares/ThreadX/Core/tx_timer_system_activate.o
+ .debug_macro   0x0000000000050602      0x168 ./Middlewares/ThreadX/Core/tx_timer_system_deactivate.o
+ .debug_macro   0x000000000005076a      0x171 ./Middlewares/ThreadX/Core/tx_timer_thread_entry.o
+ .debug_macro   0x00000000000508db      0x183 ./Middlewares/ThreadX/Core/txe_byte_allocate.o
+ .debug_macro   0x0000000000050a5e      0x183 ./Middlewares/ThreadX/Core/txe_byte_pool_create.o
+ .debug_macro   0x0000000000050be1      0x183 ./Middlewares/ThreadX/Core/txe_queue_create.o
+ .debug_macro   0x0000000000050d64      0x17a ./Middlewares/ThreadX/Core/txe_queue_receive.o
+ .debug_macro   0x0000000000050ede      0x17a ./Middlewares/ThreadX/Core/txe_queue_send.o
+ .debug_macro   0x0000000000051058      0x183 ./Middlewares/ThreadX/Core/txe_semaphore_create.o
+ .debug_macro   0x00000000000511db      0x17a ./Middlewares/ThreadX/Core/txe_semaphore_get.o
+ .debug_macro   0x0000000000051355      0x168 ./Middlewares/ThreadX/Core/txe_semaphore_put.o
+ .debug_macro   0x00000000000514bd      0x17a ./Middlewares/ThreadX/Core/txe_thread_create.o
 
 .debug_line     0x0000000000000000    0x592e9
  .debug_line    0x0000000000000000      0xaa9 ./Application/User/AZURE_RTOS/App/app_azure_rtos.o

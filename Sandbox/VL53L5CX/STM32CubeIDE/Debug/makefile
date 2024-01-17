@@ -13,6 +13,7 @@ RM := rm -rf
 -include Drivers/STM32U5xx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
 -include Drivers/BSP/STM32U5x9J-DK/subdir.mk
+-include Drivers/BSP/Components/VL53L5CX_ULD_API/src/subdir.mk
 -include Drivers/BSP/Components/subdir.mk
 -include Application/User/gui/subdir.mk
 -include Application/User/generated/subdir.mk

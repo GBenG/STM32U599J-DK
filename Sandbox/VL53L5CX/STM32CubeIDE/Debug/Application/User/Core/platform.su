@@ -1,0 +1,7 @@
+../Application/User/Core/platform.c:67:9:RdByte	40	static
+../Application/User/Core/platform.c:85:9:WrByte	32	static
+../Application/User/Core/platform.c:101:9:WrMulti	48	static
+../Application/User/Core/platform.c:112:9:RdMulti	40	static
+../Application/User/Core/platform.c:128:9:Reset_Sensor	16	static
+../Application/User/Core/platform.c:145:6:SwapBuffer	24	static
+../Application/User/Core/platform.c:164:9:WaitMs	16	static
