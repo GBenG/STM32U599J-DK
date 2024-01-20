@@ -7,7 +7,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2023 STMicroelectronics.
+  * Copyright (c) 2024 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -246,7 +246,7 @@ void STM32DMA::setupDataCopy(const BlitOp& blitOp)
                 MODIFY_REG(DMA2D->FGPFCCR, (DMA2D_FGPFCCR_CS | DMA2D_FGPFCCR_CCM), (((palette->size - 1) << DMA2D_FGPFCCR_CS_Pos) | (DMA2D_CCM_ARGB8888 << DMA2D_FGPFCCR_CCM_Pos)));
                 break;
             case Bitmap::CLUT_FORMAT_L8_RGB888:
-                if (blitOp.alpha == 255)
+                if(blitOp.alpha == 255)
                 {
                     blend = false;
                 }
@@ -267,7 +267,7 @@ void STM32DMA::setupDataCopy(const BlitOp& blitOp)
             DMA2D->IFCR = (DMA2D_FLAG_CTC);
 
             /* Set DMA2D mode */
-            if (blend)
+            if(blend)
             {
                 WRITE_REG(DMA2D->CR, DMA2D_M2M_BLEND | DMA2D_IT_TC | DMA2D_CR_START);
             }

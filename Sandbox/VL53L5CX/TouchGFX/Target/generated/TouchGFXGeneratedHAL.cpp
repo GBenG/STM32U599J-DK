@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2023 STMicroelectronics.
+  * Copyright (c) 2024 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -40,12 +40,12 @@ using namespace touchgfx;
 
 namespace
 {
-// Use the section "TouchGFX_Framebuffer" in the linker script to specify the placement of the buffer
-LOCATION_PRAGMA_NOLOAD("TouchGFX_Framebuffer")
-uint32_t frameBuf[(480 * 480 * 3 + 3) / 4 * 2] LOCATION_ATTRIBUTE_NOLOAD("TouchGFX_Framebuffer");
-static volatile bool refreshRequested = false;
-static uint16_t lcd_int_active_line;
-static uint16_t lcd_int_porch_line;
+    // Use the section "TouchGFX_Framebuffer" in the linker script to specify the placement of the buffer
+    LOCATION_PRAGMA_NOLOAD("TouchGFX_Framebuffer")
+    uint32_t frameBuf[(480 * 480 * 3 + 3) / 4 * 2] LOCATION_ATTRIBUTE_NOLOAD("TouchGFX_Framebuffer");
+    static volatile bool refreshRequested = false;
+    static uint16_t lcd_int_active_line;
+    static uint16_t lcd_int_porch_line;
 }
 
 void TouchGFXGeneratedHAL::initialize()

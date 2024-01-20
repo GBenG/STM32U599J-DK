@@ -18,3 +18,5 @@ stm32u5xx_hal_msp.c:574:6:HAL_OSPI_MspDeInit	1
 stm32u5xx_hal_msp.c:597:6:HAL_TIM_Base_MspInit	2
 stm32u5xx_hal_msp.c:613:6:HAL_TIM_MspPostInit	2
 stm32u5xx_hal_msp.c:645:6:HAL_TIM_Base_MspDeInit	2
+stm32u5xx_hal_msp.c:667:6:HAL_UART_MspInit	3
+stm32u5xx_hal_msp.c:714:6:HAL_UART_MspDeInit	2

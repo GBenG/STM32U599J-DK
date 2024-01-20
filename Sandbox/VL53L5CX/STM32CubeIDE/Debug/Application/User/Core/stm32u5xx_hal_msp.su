@@ -18,3 +18,5 @@ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:574:6:HAL_OSP
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:597:6:HAL_TIM_Base_MspInit	24	static
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:613:6:HAL_TIM_MspPostInit	40	static
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:645:6:HAL_TIM_Base_MspDeInit	16	static
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:667:6:HAL_UART_MspInit	272	static
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Core/Src/stm32u5xx_hal_msp.c:714:6:HAL_UART_MspDeInit	16	static
