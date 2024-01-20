@@ -36,7 +36,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define is_interrupt 0
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -164,10 +164,28 @@ int main(void)
   Dev.platform.address = VL53L5CX_DEFAULT_I2C_ADDRESS;
   HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_SET);
   status = vl53l5cx_is_alive(&Dev, &isAlive);
-  if(!isAlive){
+  if( !isAlive ){
     printf("VL53L5CXV0 not detected at requested address (0x%x)\n", Dev.platform.address);
   }
   printf("Sensor OK\n");
+  printf("Sensor initializing, please wait few seconds\n");
+  status = vl53l5cx_init(&Dev);
+  status = vl53l5cx_set_ranging_frequency_hz(&Dev, 2);				// Set 2Hz ranging frequency
+  status = vl53l5cx_set_ranging_mode(&Dev, VL53L5CX_RANGING_MODE_CONTINUOUS);  // Set mode continuous
+
+  printf("Ranging starts\n");
+  status = vl53l5cx_start_ranging(&Dev);
+  printf("status: %u\n", status);
+
+  //TODO: put it in a task
+  if( is_interrupt ){
+  		printf("-\n");
+  	  get_data_by_interrupt(&Dev);
+  	}
+  	else {
+  		printf(".\n");
+  	  get_data_by_polling(&Dev);
+  	}
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   /* USER CODE END 2 */
 
@@ -1239,6 +1257,69 @@ PUTCHAR_PROTOTYPE
   HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
 
   return ch;
+}
+
+void get_data_by_interrupt(VL53L5CX_Configuration *p_dev){
+	do
+	{
+		__WFI();	// Wait for interrupt
+		if(IntCount !=0 ){
+			IntCount=0;
+			status = vl53l5cx_get_resolution(p_dev, &resolution);
+			status = vl53l5cx_get_ranging_data(p_dev, &Results);
+
+			for(int i = 0; i < resolution;i++){
+				/* Print per zone results */
+				printf("Zone : %2d, Nb targets : %2u, Ambient : %4lu Kcps/spads, ",
+						i,
+						Results.nb_target_detected[i],
+						Results.ambient_per_spad[i]);
+
+				/* Print per target results */
+				if(Results.nb_target_detected[i] > 0){
+					printf("Target status : %3u, Distance : %4d mm\n",
+							Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
+							Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
+				}else{
+					printf("Target status : 255, Distance : No target\n");
+				}
+			}
+			printf("\n");
+		}
+	}while(1);
+}
+
+
+void get_data_by_polling(VL53L5CX_Configuration *p_dev){
+	do
+	{
+		status = vl53l5cx_check_data_ready(&Dev, &p_data_ready);
+		if(p_data_ready){
+			status = vl53l5cx_get_resolution(p_dev, &resolution);
+			status = vl53l5cx_get_ranging_data(p_dev, &Results);
+
+			for(int i = 0; i < resolution;i++){
+				/* Print per zone results */
+				printf("Zone : %2d, Nb targets : %2u, Ambient : %4lu Kcps/spads, ",
+						i,
+						Results.nb_target_detected[i],
+						Results.ambient_per_spad[i]);
+
+				/* Print per target results */
+				if(Results.nb_target_detected[i] > 0){
+					printf("Target status : %3u, Distance : %4d mm\n",
+							Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
+							Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
+				}else{
+					printf("Target status : 255, Distance : No target\n");
+				}
+			}
+			printf("\n");
+		}else{
+			HAL_Delay(5);
+		}
+	}
+	while(1);
 }
 /* USER CODE END 4 */
 
