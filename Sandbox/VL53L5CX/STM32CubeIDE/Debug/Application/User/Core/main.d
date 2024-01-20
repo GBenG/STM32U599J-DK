@@ -55,7 +55,9 @@ Application/User/Core/main.o: \
  ../../Core/Inc/aps512xx_conf.h \
  ../../Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ospi.h \
  ../../Drivers/BSP/STM32U5x9J-DK/../Components/mx25um51245g/mx25um51245g.h \
- ../../Core/Inc/mx25um51245g_conf.h
+ ../../Core/Inc/mx25um51245g_conf.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/STM32CubeIDE/Drivers/BSP/Components/VL53L5CX_ULD_API/inc/vl53l5cx_api.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/STM32CubeIDE/Application/User/Core/platform.h
 ../../Core/Inc/app_threadx.h:
 ../../Middlewares/ST/threadx/common/inc/tx_api.h:
 ../../Middlewares/ST/threadx/ports/cortex_m33/gnu/inc/tx_port.h:
@@ -113,3 +115,5 @@ Application/User/Core/main.o: \
 ../../Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ospi.h:
 ../../Drivers/BSP/STM32U5x9J-DK/../Components/mx25um51245g/mx25um51245g.h:
 ../../Core/Inc/mx25um51245g_conf.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/STM32CubeIDE/Drivers/BSP/Components/VL53L5CX_ULD_API/inc/vl53l5cx_api.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/STM32CubeIDE/Application/User/Core/platform.h:

@@ -26,6 +26,7 @@
 #include <stdio.h>
 #include "stm32u5x9j_discovery_hspi.h"
 #include "stm32u5x9j_discovery_ospi.h"
+#include "vl53l5cx_api.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,6 +59,8 @@ GPU2D_HandleTypeDef hgpu2d;
 
 XSPI_HandleTypeDef hxspi1;
 
+I2C_HandleTypeDef hi2c3;
+
 LTDC_HandleTypeDef hltdc;
 
 OSPI_HandleTypeDef hospi1;
@@ -67,7 +70,13 @@ TIM_HandleTypeDef htim8;
 UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
-
+int status;
+volatile int IntCount;
+uint8_t p_data_ready;
+VL53L5CX_Configuration 	Dev;
+VL53L5CX_ResultsData 	Results;
+uint8_t resolution, isAlive;
+uint16_t idx;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -87,7 +96,11 @@ static void MX_HSPI1_Init(void);
 static void MX_DCACHE1_Init(void);
 static void MX_DCACHE2_Init(void);
 static void MX_USART1_UART_Init(void);
+static void MX_I2C3_Init(void);
 /* USER CODE BEGIN PFP */
+void get_data_by_polling(VL53L5CX_Configuration *p_dev);
+void get_data_by_interrupt(VL53L5CX_Configuration *p_dev);
+
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 /* USER CODE END PFP */
 
@@ -142,6 +155,7 @@ int main(void)
   MX_DCACHE1_Init();
   MX_DCACHE2_Init();
   MX_USART1_UART_Init();
+  MX_I2C3_Init();
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
@@ -594,6 +608,54 @@ static void MX_HSPI1_Init(void)
     Error_Handler();
   }
   /* USER CODE END HSPI1_Init 2 */
+
+}
+
+/**
+  * @brief I2C3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C3_Init(void)
+{
+
+  /* USER CODE BEGIN I2C3_Init 0 */
+
+  /* USER CODE END I2C3_Init 0 */
+
+  /* USER CODE BEGIN I2C3_Init 1 */
+
+  /* USER CODE END I2C3_Init 1 */
+  hi2c3.Instance = I2C3;
+  hi2c3.Init.Timing = 0x30909DEC;
+  hi2c3.Init.OwnAddress1 = 0;
+  hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c3.Init.OwnAddress2 = 0;
+  hi2c3.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
+  hi2c3.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c3.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Analogue filter
+  */
+  if (HAL_I2CEx_ConfigAnalogFilter(&hi2c3, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Digital filter
+  */
+  if (HAL_I2CEx_ConfigDigitalFilter(&hi2c3, 0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C3_Init 2 */
+
+  /* USER CODE END I2C3_Init 2 */
 
 }
 
