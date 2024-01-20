@@ -160,6 +160,15 @@ int main(void)
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
   printf("Hello VL53L5CX\r\n" );
+  //~~~ VL53L5CX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Dev.platform.address = VL53L5CX_DEFAULT_I2C_ADDRESS;
+  HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_SET);
+  status = vl53l5cx_is_alive(&Dev, &isAlive);
+  if(!isAlive){
+    printf("VL53L5CXV0 not detected at requested address (0x%x)\n", Dev.platform.address);
+  }
+  printf("Sensor OK\n");
+  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   /* USER CODE END 2 */
 
   MX_ThreadX_Init();
@@ -1148,7 +1157,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOF_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, LED_GREEN_Pin|LED_RED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOE, LED_GREEN_Pin|LED_RED_Pin|VL_LPn_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(LCD_RESET_GPIO_Port, LCD_RESET_Pin, GPIO_PIN_SET);
@@ -1201,6 +1210,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : VL_LPn_Pin */
+  GPIO_InitStruct.Pin = VL_LPn_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(VL_LPn_GPIO_Port, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI8_IRQn, 10, 0);
