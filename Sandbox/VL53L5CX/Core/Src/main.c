@@ -170,7 +170,8 @@ int main(void)
   printf("Sensor OK\n");
   printf("Sensor initializing, please wait few seconds\n");
   status = vl53l5cx_init(&Dev);
-  status = vl53l5cx_set_ranging_frequency_hz(&Dev, 2);				// Set 2Hz ranging frequency
+  //status = vl53l5cx_set_resolution(&Dev, VL53L5CX_RESOLUTION_8X8);             //Set resolution
+  status = vl53l5cx_set_ranging_frequency_hz(&Dev, 30);				           // Set 2Hz ranging frequency
   status = vl53l5cx_set_ranging_mode(&Dev, VL53L5CX_RANGING_MODE_CONTINUOUS);  // Set mode continuous
 
   printf("Ranging starts\n");
@@ -1300,21 +1301,26 @@ void get_data_by_polling(VL53L5CX_Configuration *p_dev){
 
 			for(int i = 0; i < resolution;i++){
 				/* Print per zone results */
-				printf("Zone : %2d, Nb targets : %2u, Ambient : %4lu Kcps/spads, ",
-						i,
-						Results.nb_target_detected[i],
-						Results.ambient_per_spad[i]);
+//				printf("Zone : %2d, Nb targets : %2u, Ambient : %4lu Kcps/spads, ",
+//						i,
+//						Results.nb_target_detected[i],
+//						Results.ambient_per_spad[i]);
+
+				//printf("[%2d]\t0x%.2X\t%4d\n",i,
+				printf("%d\t%d\t%d\n",i,
+						Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
+						Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
 
 				/* Print per target results */
-				if(Results.nb_target_detected[i] > 0){
-					printf("Target status : %3u, Distance : %4d mm\n",
-							Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
-							Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
-				}else{
-					printf("Target status : 255, Distance : No target\n");
-				}
+//				if(Results.nb_target_detected[i] > 0){
+//					printf("Target status : %3u, Distance : %4d mm\n",
+//							Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
+//							Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
+//				}else{
+//					printf("Target status : 255, Distance : No target\n");
+//				}
 			}
-			printf("\n");
+			//printf("\n");
 		}else{
 			HAL_Delay(5);
 		}
