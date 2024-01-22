@@ -178,15 +178,6 @@ int main(void)
   status = vl53l5cx_start_ranging(&Dev);
   printf("status: %u\n", status);
 
-  //TODO: put it in a task
-  if( is_interrupt ){
-  		printf("-\n");
-  	  get_data_by_interrupt(&Dev);
-  	}
-  	else {
-  		printf(".\n");
-  	  get_data_by_polling(&Dev);
-  	}
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   /* USER CODE END 2 */
 
@@ -197,6 +188,14 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	if( is_interrupt ){
+		printf("-\n");
+	  get_data_by_interrupt(&Dev);
+	}
+	else {
+		printf(".\n");
+	  get_data_by_polling(&Dev);
+	  	}
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -1292,8 +1291,8 @@ void get_data_by_interrupt(VL53L5CX_Configuration *p_dev){
 
 
 void get_data_by_polling(VL53L5CX_Configuration *p_dev){
-	do
-	{
+//	do
+//	{
 		status = vl53l5cx_check_data_ready(&Dev, &p_data_ready);
 		if(p_data_ready){
 			status = vl53l5cx_get_resolution(p_dev, &resolution);
@@ -1324,8 +1323,8 @@ void get_data_by_polling(VL53L5CX_Configuration *p_dev){
 		}else{
 			HAL_Delay(5);
 		}
-	}
-	while(1);
+//	}
+//	while(1);
 }
 /* USER CODE END 4 */
 
