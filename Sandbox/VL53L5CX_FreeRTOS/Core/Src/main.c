@@ -27,7 +27,6 @@
 #include <string.h>
 #include "stm32u5x9j_discovery_hspi.h"
 #include "mx25um51245g.h"
-#include "vl53l5cx_api.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -74,13 +73,7 @@ UART_HandleTypeDef huart1;
 
 XSPI_HandleTypeDef xospi1;
 
-int status;
-volatile int IntCount;
-uint8_t p_data_ready;
-VL53L5CX_Configuration 	Dev;
-VL53L5CX_ResultsData 	Results;
-uint8_t resolution, isAlive;
-uint16_t idx;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -104,8 +97,6 @@ static void MX_I2C3_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
-
-void get_data_by_polling(VL53L5CX_Configuration *p_dev);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -165,26 +156,7 @@ int main(void)
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
   printf("Hello VL53L5CX FreeRTOS\r\n" );
-  //~~~ VL53L5CX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Dev.platform.address = VL53L5CX_DEFAULT_I2C_ADDRESS;
-  HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_SET);
-  status = vl53l5cx_is_alive(&Dev, &isAlive);
-  if( !isAlive ){
-	  printf("VL53L5CXV0 not detected at requested address (0x%x)\n", Dev.platform.address);
-  }
-  printf("Sensor OK\n");
-  printf("Sensor initializing, please wait few seconds\n");
-  status = vl53l5cx_init(&Dev);
-  //status = vl53l5cx_set_resolution(&Dev, VL53L5CX_RESOLUTION_8X8);             //Set resolution
-  status = vl53l5cx_set_ranging_frequency_hz(&Dev, 30);				           // Set 2Hz ranging frequency
-  status = vl53l5cx_set_ranging_mode(&Dev, VL53L5CX_RANGING_MODE_CONTINUOUS);  // Set mode continuous
 
-  printf("Ranging starts\n");
-  status = vl53l5cx_start_ranging(&Dev);
-  printf("status: %u\n", status);
-  get_data_by_polling(&Dev);
-
-  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   /* USER CODE END 2 */
 
   /* Init scheduler */
@@ -1359,22 +1331,6 @@ PUTCHAR_PROTOTYPE
   HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
 
   return ch;
-}
-
-void get_data_by_polling(VL53L5CX_Configuration *p_dev){
-	status = vl53l5cx_check_data_ready(&Dev, &p_data_ready);
-	if(p_data_ready){
-		status = vl53l5cx_get_resolution(p_dev, &resolution);
-		status = vl53l5cx_get_ranging_data(p_dev, &Results);
-
-		for(int i = 0; i < resolution;i++){
-			printf("%d\t%d\t%d\n",i,
-					Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
-					Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
-		}
-	}else{
-		HAL_Delay(5);
-	}
 }
 
 /* USER CODE END 4 */

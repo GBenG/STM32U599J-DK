@@ -24,7 +24,7 @@
 #include "cmsis_os2.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "vl53l5cx_api.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,7 +44,13 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-
+int status;
+volatile int IntCount;
+uint8_t p_data_ready;
+VL53L5CX_Configuration 	Dev;
+VL53L5CX_ResultsData 	Results;
+uint8_t resolution, isAlive;
+uint16_t idx;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -64,6 +70,7 @@ const osThreadAttr_t GUI_Task_attributes = {
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 extern portBASE_TYPE IdleTaskHook(void* p);
+void get_data_by_polling(VL53L5CX_Configuration *p_dev);
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void *argument);
@@ -98,7 +105,24 @@ void vApplicationIdleHook( void )
   */
 void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
+  //~~~ VL53L5CX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Dev.platform.address = VL53L5CX_DEFAULT_I2C_ADDRESS;
+  HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_SET);
+  status = vl53l5cx_is_alive(&Dev, &isAlive);
+  if( !isAlive ){
+	  printf("VL53L5CXV0 not detected at requested address (0x%x)\n", Dev.platform.address);
+  }
+  printf("Sensor OK\n");
+  printf("Sensor initializing, please wait few seconds\n");
+  status = vl53l5cx_init(&Dev);
+  //status = vl53l5cx_set_resolution(&Dev, VL53L5CX_RESOLUTION_8X8);             //Set resolution
+  status = vl53l5cx_set_ranging_frequency_hz(&Dev, 30);				           // Set 2Hz ranging frequency
+  status = vl53l5cx_set_ranging_mode(&Dev, VL53L5CX_RANGING_MODE_CONTINUOUS);  // Set mode continuous
 
+  printf("Ranging starts\n");
+  status = vl53l5cx_start_ranging(&Dev);
+  printf("status: %u\n", status);
+  //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   /* USER CODE END Init */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -144,6 +168,7 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
+	get_data_by_polling(&Dev);
     osDelay(1);
   }
   /* USER CODE END defaultTask */
@@ -151,6 +176,20 @@ void StartDefaultTask(void *argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
+void get_data_by_polling(VL53L5CX_Configuration *p_dev){
+	status = vl53l5cx_check_data_ready(&Dev, &p_data_ready);
+	if(p_data_ready){
+		status = vl53l5cx_get_resolution(p_dev, &resolution);
+		status = vl53l5cx_get_ranging_data(p_dev, &Results);
 
+		for(int i = 0; i < resolution;i++){
+			printf("%d\t%d\t%d\n",i,
+					Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
+					Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
+		}
+	}else{
+		HAL_Delay(5);
+	}
+}
 /* USER CODE END Application */
 
