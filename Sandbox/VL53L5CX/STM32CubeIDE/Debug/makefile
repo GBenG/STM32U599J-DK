@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -32,6 +32,9 @@ endif
 ifneq ($(strip $(C++_DEPS)),)
 -include $(C++_DEPS)
 endif
+ifneq ($(strip $(CCM_DEPS)),)
+-include $(CCM_DEPS)
+endif
 ifneq ($(strip $(C_UPPER_DEPS)),)
 -include $(C_UPPER_DEPS)
 endif
@@ -43,6 +46,12 @@ ifneq ($(strip $(S_DEPS)),)
 endif
 ifneq ($(strip $(S_UPPER_DEPS)),)
 -include $(S_UPPER_DEPS)
+endif
+ifneq ($(strip $(CXXM_DEPS)),)
+-include $(CXXM_DEPS)
+endif
+ifneq ($(strip $(C++M_DEPS)),)
+-include $(C++M_DEPS)
 endif
 ifneq ($(strip $(C_DEPS)),)
 -include $(C_DEPS)
@@ -87,7 +96,7 @@ main-build: STM32U5A9J-DK.elf secondary-outputs
 
 # Tool invocations
 STM32U5A9J-DK.elf STM32U5A9J-DK.map: $(OBJS) $(USER_OBJS) D:\GIT\STM32U599J-DK\Sandbox\VL53L5CX\STM32CubeIDE\STM32U599NJHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32U5A9J-DK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"D:\GIT\STM32U599J-DK\Sandbox\VL53L5CX\STM32CubeIDE\STM32U599NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32U5A9J-DK.map" -Wl,--gc-sections -static -LC:/repos/pacman/at/stm32u5a9j-dk/STM32U5A9J-DK/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc -LD:/GIT/STM32U599J-DK/Sandbox/Test/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc -L../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc -L../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -o "STM32U5A9J-DK.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"D:\GIT\STM32U599J-DK\Sandbox\VL53L5CX\STM32CubeIDE\STM32U599NJHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32U5A9J-DK.map" -Wl,--gc-sections -static -LC:/repos/pacman/at/stm32u5a9j-dk/STM32U5A9J-DK/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc -LD:/GIT/STM32U599J-DK/Sandbox/Test/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc -LD:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Middlewares/ST/touchgfx/lib/core/cortex_m33/gcc -L../../Middlewares/ST/touchgfx_components/gpu2d/NemaGFX/lib/core/cortex_m33/gcc -L../../Middlewares/ST/touchgfx_components/gpu2d/TouchGFXNema/lib/cortex_m33/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

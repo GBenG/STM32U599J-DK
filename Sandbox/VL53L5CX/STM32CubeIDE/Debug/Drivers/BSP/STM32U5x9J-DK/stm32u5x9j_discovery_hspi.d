@@ -46,7 +46,7 @@ Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_hspi.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_errno.h \
- d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\aps512xx\aps512xx.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/aps512xx/aps512xx.h \
  ../../Core/Inc/aps512xx_conf.h
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_hspi.h:
 ../../Core/Inc/stm32u5x9j_discovery_conf.h:
@@ -94,5 +94,5 @@ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_disco
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_gpu2d.h:
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_errno.h:
-d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\aps512xx\aps512xx.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/aps512xx/aps512xx.h:
 ../../Core/Inc/aps512xx_conf.h:

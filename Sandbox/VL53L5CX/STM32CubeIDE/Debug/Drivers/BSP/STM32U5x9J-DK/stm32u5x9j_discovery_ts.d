@@ -48,9 +48,9 @@ Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ts.o: \
  ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h \
  D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_errno.h \
  D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.h \
- d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\common\ts.h \
- d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\sitronix\sitronix.h \
- d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\sitronix\sitronix_reg.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/Common/ts.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/sitronix/sitronix.h \
+ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/sitronix/sitronix_reg.h \
  ../../Core/Inc/sitronix_conf.h
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_ts.h:
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery.h:
@@ -100,7 +100,7 @@ D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_disco
 ../../Drivers/STM32U5xx_HAL_Driver/Inc/stm32u5xx_hal_xspi.h:
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_errno.h:
 D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/stm32u5x9j_discovery_bus.h:
-d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\common\ts.h:
-d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\sitronix\sitronix.h:
-d:\git\stm32u599j-dk\sandbox\vl53l5cx\drivers\bsp\components\sitronix\sitronix_reg.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/Common/ts.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/sitronix/sitronix.h:
+D:/GIT/STM32U599J-DK/Sandbox/VL53L5CX/Drivers/BSP/STM32U5x9J-DK/../Components/sitronix/sitronix_reg.h:
 ../../Core/Inc/sitronix_conf.h:

@@ -104,6 +104,8 @@ void Error_Handler(void);
 #define OSPI_DQS_GPIO_Port GPIOA
 #define FRAME_RATE_Pin GPIO_PIN_14
 #define FRAME_RATE_GPIO_Port GPIOF
+#define VL_LPn_Pin GPIO_PIN_14
+#define VL_LPn_GPIO_Port GPIOE
 
 /* USER CODE BEGIN Private defines */
 
