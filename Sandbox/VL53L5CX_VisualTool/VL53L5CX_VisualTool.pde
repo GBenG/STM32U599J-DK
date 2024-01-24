@@ -49,11 +49,11 @@ void setup()
 //----------------------------------------------------------------------------------------------------------------------
 void draw() 
 {
-  background(bgcolor);
+  background(bgcolor);  
 //-------------------------------------------------------- 
   control_watermark();
   control_group("LEFT", 0, height);
-//--------------------------------------------------------  
+//--------------------------------------------------------
   translate(width / 2 - rectSize * 4 / 2, height / 2 - rectSize * 4 / 2);
 
   for (int i = 0; i < 4; i++) {
@@ -65,5 +65,31 @@ void draw()
     }
   }
 //--------------------------------------------------------
- 
+  //for (int x = 0; x < width; x++) {
+  //  for (int y = 0; y < height; y++) {
+  //    // Map the pixel position to the corresponding position in the 8x8 array
+  //    float arrayX = map(x, 0, width, 0, 3);
+  //    float arrayY = map(y, 0, height, 0, 3);
+
+  //    // Calculate the integer indices for the 4 surrounding values
+  //    int x0 = floor(arrayX);
+  //    int x1 = ceil(arrayX);
+  //    int y0 = floor(arrayY);
+  //    int y1 = ceil(arrayY);
+
+  //    // Bilinear interpolation
+  //    float value = lerp(
+  //      lerp(values[x0][y0], values[x1][y0], arrayX - x0),
+  //      lerp(values[x0][y1], values[x1][y1], arrayX - x0),
+  //      arrayY - y0
+  //    );
+
+  //    // Map the value to a color
+  //    //color c = color(map(value, 0, 1000, 0, 255), 0, map(value, 0, 1000, 255, 0));
+  //    float hue = map(value, 0, 1000, 240, 0); // Map the value to HUE (0 to 240)
+  //    stroke(hue, 100, 100);
+  //    point(x, y);
+  //  }
+  //}
+//--------------------------------------------------------
 }
