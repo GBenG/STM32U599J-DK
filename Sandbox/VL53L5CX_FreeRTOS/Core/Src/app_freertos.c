@@ -107,7 +107,13 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
   //~~~ VL53L5CX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Dev.platform.address = VL53L5CX_DEFAULT_I2C_ADDRESS;
+
+  // Reset ToF Sensor (Section 4.2 in UM2884)
+  HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_RESET);
+  HAL_Delay(10);
   HAL_GPIO_WritePin(VL_LPn_GPIO_Port, VL_LPn_Pin, GPIO_PIN_SET);
+
+
   status = vl53l5cx_is_alive(&Dev, &isAlive);
   if( !isAlive ){
 	  printf("VL53L5CXV0 not detected at requested address (0x%x)\n", Dev.platform.address);
@@ -115,7 +121,7 @@ void MX_FREERTOS_Init(void) {
   printf("Sensor OK\n");
   printf("Sensor initializing, please wait few seconds\n");
   status = vl53l5cx_init(&Dev);
-  //status = vl53l5cx_set_resolution(&Dev, VL53L5CX_RESOLUTION_8X8);             //Set resolution
+  status = vl53l5cx_set_resolution(&Dev, VL53L5CX_RESOLUTION_8X8);             //Set resolution
   status = vl53l5cx_set_ranging_frequency_hz(&Dev, 30);				           // Set 2Hz ranging frequency
   status = vl53l5cx_set_ranging_mode(&Dev, VL53L5CX_RANGING_MODE_CONTINUOUS);  // Set mode continuous
 
@@ -178,6 +184,8 @@ void StartDefaultTask(void *argument)
 /* USER CODE BEGIN Application */
 void get_data_by_polling(VL53L5CX_Configuration *p_dev){
 	status = vl53l5cx_check_data_ready(&Dev, &p_data_ready);
+	//printf("check_data_ready.status: %u | p_data_ready: %u\n", status, p_data_ready );
+
 	if(p_data_ready){
 		status = vl53l5cx_get_resolution(p_dev, &resolution);
 		status = vl53l5cx_get_ranging_data(p_dev, &Results);

@@ -260,7 +260,7 @@
 
 /**
  * @brief Structure VL53L5CX_Configuration contains the sensor configuration.
- * User MUST not manually change these field, except for the sensor address.
+ * User MUST not manually change these field, except forW the sensor address.
  */
 
 typedef struct

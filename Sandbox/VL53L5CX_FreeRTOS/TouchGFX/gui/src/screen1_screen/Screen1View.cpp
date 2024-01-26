@@ -14,7 +14,8 @@ Screen1View::Screen1View()
 	//Initialize grid with random values
 	for(uint8_t r = 0; r < ROWS; r ++ ){
 		for(uint8_t c = 0; c < COLS; c ++ ){
-			grid[c][r] = 140+rand()%20;
+			//grid[c][r] = 140+rand()%20;
+			grid[c][r] = 140;
 		}
 	}
 
@@ -43,17 +44,17 @@ void Screen1View::tearDownScreen()
 void Screen1View::tick_func(){
 
 	//Calculate grid
-	for(uint8_t r = 0; r < ROWS; r ++ ){
-		for(uint8_t c = 0; c < COLS; c ++ ){
-			if( grid[c][r] > 0 ){
-				if( rand()%20 != 0 ){
-					grid[c][r]--;
-				}
-			}else{
-				grid[c][r] = 160;
-			}
-		}
-	}
+//	for(uint8_t r = 0; r < ROWS; r ++ ){
+//		for(uint8_t c = 0; c < COLS; c ++ ){
+//			if( grid[c][r] > 0 ){
+//				if( rand()%20 != 0 ){
+//					grid[c][r]--;
+//				}
+//			}else{
+//				grid[c][r] = 160;
+//			}
+//		}
+//	}
 
 	//Draw cells
 	uint16_t index = 0;
