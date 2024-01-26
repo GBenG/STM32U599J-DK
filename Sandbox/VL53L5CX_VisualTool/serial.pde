@@ -111,15 +111,22 @@ void serialEvent(Serial port){
   if(port == serial_left.get_port()){
     println("> "+trim(input)); 
     String arr[] = input.split("\t");
-    if(int(arr[1])!=255){
-      //values[int(arr[0])/4][int(arr[0])%4] = int(arr[2]);
-      int x = int(arr[0])/4;
-      int y = int(arr[0])%4;
-      int val = int(trim(arr[2]));
-      println("x:"+x+" y:"+y+" val:"+val);
-      values[x][y] = val;
+    
+    int x = int(arr[0])/8;
+    int y = int(arr[0])%8;
+    
+    if(int(arr[1])==0){
+      //println("NULL!!!!!!!!!!");
+      values[x][y] = 600;
+    }
+    else if(int(arr[1])==255){
+      //println("GENAU!!!!!!!!!!");
+      values[x][y] = 600;
     }else{
-      println("GENAU!!!!!!!!!!");
+      //println("OK");
+      int val = int(trim(arr[2]));
+      values[x][y] = val;
+      //println("x:"+x+" y:"+y+" val:"+val);
     }
   }else{
     println("KPP> "+trim(input)); 

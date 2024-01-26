@@ -5,44 +5,33 @@ import     processing.serial.*;
 
 //Objects
 Serial_port serial_left = new Serial_port();
-//Serial_port serial_rght = new Serial_port();
 
-//Scan area
-int cols = 100/2;   //50
-int rows = 70/2;   //35
-int layers = 30/2; //15
+int[][] values = new int[8][8]; // Create
 
-int X_shift = -30;
-int Y_shift = -80;
-int Z_shift = 85;
-
-int X_pos = 0;
-int Y_pos = 0;
-int Z_pos = 0;
-Boolean X_sw = false;
-Boolean Y_sw = false;
-
-
-Boolean scan = false;
-Boolean wait = false;
-
-int k_send_try = 0;
-
-int[][] values = {
-  {1000, 1000, 1000, 1000},
-  {1000, 1000, 1000, 1000},
-  {1000, 1000, 1000, 1000},
-  {1000, 1000, 1000, 1000}
-};
-
-int rectSize = 180;
+int rectSize = 90;
 
 //----------------------------------------------------------------------------------------------------------------------
 void setup() 
 {
-  size( 1200, 850);
-  
+//-------------------------------------------------------- 
+//2D
+//-------------------------------------------------------- 
+  //size( 1200, 850 );
+//-------------------------------------------------------- 
+//3D
+//-------------------------------------------------------- 
+  size(1200, 850, P3D);
+//--------------------------------------------------------
+
   serial_left.update();
+  colorMode(HSB, 255);
+  
+  //Init array
+  for (int i = 0; i < 8; i++) {
+    for (int j = 0; j < 8; j++) {
+      values[i][j] = 600;
+    }
+  }
 }
 
 
@@ -53,43 +42,48 @@ void draw()
 //-------------------------------------------------------- 
   control_watermark();
   control_group("LEFT", 0, height);
-//--------------------------------------------------------
-  translate(width / 2 - rectSize * 4 / 2, height / 2 - rectSize * 4 / 2);
+//-------------------------------------------------------- 
+//2D
+//-------------------------------------------------------- 
+//  translate(width / 2 - rectSize * 8 / 2, height / 2 - rectSize * 8 / 2);
 
-  for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-      int value = values[i][j];
-      float hue = map(value, 0, 1000, 240, 0); // Map the value to HUE (0 to 240)
-      fill(hue, 100, 100); // HSB color mode
-      rect(j * rectSize, i * rectSize, rectSize, rectSize);
+//  for (int i = 0; i < 8; i++) {
+//    for (int j = 0; j < 8; j++) {
+//      int value = values[i][j];
+//      if( value > 600 ) value = 600;//Clear noise
+//      float hue = map(value, 0, 600, 0, 160); // Map the value to HUE (0 to 240)
+//      fill(hue, 200, 100); // HSB color mode
+//      rect(j * rectSize, i * rectSize, rectSize, rectSize);
+//      fill(0);
+//      text(value,j*rectSize+rectSize/2,i*rectSize+rectSize/2);
+//    }
+//  }
+//-------------------------------------------------------- 
+//3D
+//-------------------------------------------------------- 
+  translate(width / 2, height / 2, -200);
+  rotateX(PI / 4);
+  rotateZ(PI / 4);
+  
+  float boxSize = 80;
+
+  for (int i = 0; i < 8; i++) {
+    for (int j = 0; j < 8; j++) {
+      float x = i * boxSize - 3.5 * boxSize;
+      float y = j * boxSize - 3.5 * boxSize;
+      float z = 600-values[i][j];
+
+      // Map the value to a color
+      if( z < 0 ) z = 0;//Clear noise
+      float hue = map(z, 0, 600, 160, 0);
+      fill(hue, 255, 255);
+      stroke(0);
+
+      pushMatrix();
+      translate(x, y, z / 3);
+      box(boxSize, boxSize, z);
+      popMatrix();
     }
   }
-//--------------------------------------------------------
-  //for (int x = 0; x < width; x++) {
-  //  for (int y = 0; y < height; y++) {
-  //    // Map the pixel position to the corresponding position in the 8x8 array
-  //    float arrayX = map(x, 0, width, 0, 3);
-  //    float arrayY = map(y, 0, height, 0, 3);
-
-  //    // Calculate the integer indices for the 4 surrounding values
-  //    int x0 = floor(arrayX);
-  //    int x1 = ceil(arrayX);
-  //    int y0 = floor(arrayY);
-  //    int y1 = ceil(arrayY);
-
-  //    // Bilinear interpolation
-  //    float value = lerp(
-  //      lerp(values[x0][y0], values[x1][y0], arrayX - x0),
-  //      lerp(values[x0][y1], values[x1][y1], arrayX - x0),
-  //      arrayY - y0
-  //    );
-
-  //    // Map the value to a color
-  //    //color c = color(map(value, 0, 1000, 0, 255), 0, map(value, 0, 1000, 255, 0));
-  //    float hue = map(value, 0, 1000, 240, 0); // Map the value to HUE (0 to 240)
-  //    stroke(hue, 100, 100);
-  //    point(x, y);
-  //  }
-  //}
-//--------------------------------------------------------
+//-------------------------------------------------------- 
 }
