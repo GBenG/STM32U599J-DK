@@ -43,7 +43,7 @@ void Screen1View::tearDownScreen()
 
 void Screen1View::tick_func(){
 
-	//Calculate grid
+//	//Calculate grid
 //	for(uint8_t r = 0; r < ROWS; r ++ ){
 //		for(uint8_t c = 0; c < COLS; c ++ ){
 //			if( grid[c][r] > 0 ){
@@ -61,7 +61,8 @@ void Screen1View::tick_func(){
 	for(uint8_t r = 0; r < ROWS; r ++ ){
 		for(uint8_t c = 0; c < COLS; c ++ ){
 			//box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
-			box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r], 255, 255));
+			//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r], 255, 255));
+			box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r]-rand()%5, 255, 255));//NoizeMC
 			box[index].invalidate();
 			index++;
 		}
