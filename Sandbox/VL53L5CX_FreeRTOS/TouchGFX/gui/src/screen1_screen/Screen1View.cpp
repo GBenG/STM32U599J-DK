@@ -33,7 +33,8 @@ Screen1View::Screen1View()
 	uint16_t index = 0;
 	for(uint8_t r = 0; r < ROWS; r ++ ){
 		for(uint8_t c = 0; c < COLS; c ++ ){
-			box[index].setPosition(80+c*40, 80+r*40, 39, 39);
+			//box[index].setPosition(80+c*40, 80+r*40, 39, 39);
+			box[index].setPosition(40+(ROWS-r)*40, 40+(COLS-c)*40, 39, 39);			//Some rotation for my setup
 			box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
 			add(box[index]);
 			index++;
@@ -53,34 +54,18 @@ void Screen1View::tearDownScreen()
 
 void Screen1View::tick_func(){
 
-//	//Calculate grid
-//	for(uint8_t r = 0; r < ROWS; r ++ ){
-//		for(uint8_t c = 0; c < COLS; c ++ ){
-//			if( grid[c][r] > 0 ){
-//				if( rand()%20 != 0 ){
-//					grid[c][r]--;
-//				}
-//			}else{
-//				grid[c][r] = 160;
-//			}
-//		}
-//	}
-
 	static VL53L5CX_ResultsData Results;
 
 	if (osMessageQueueGet( vlQueueHandle, &Results, 0U, 0) == osOK) {
 
 		//Draw cells
 		uint16_t index = 0;
-		for(uint8_t r = 0; r < ROWS; r ++ ){
-			for(uint8_t c = 0; c < COLS; c ++ ){
-				//box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
-				//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r], 255, 255));
-				//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r]-rand()%5, 255, 255));//NoizeMC
+		for(uint8_t r = ROWS; r > 0 ; r -- ){
+			for(uint8_t c = 0; c < COLS; c++ ){
 
 				int16_t cell_value;
 
-				//Erreors exeptions
+				//Errors exceptions
 			    if( Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * index] == 0 ){
 			    	cell_value = 600;
 			    }
@@ -90,7 +75,7 @@ void Screen1View::tick_func(){
 			      cell_value = Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * index];
 			    }
 
-			    //Noise exeption
+			    //Noise exception
 			    if( cell_value > 600) cell_value = 600;
 			    //Hue mapping
 			    cell_value = (int16_t)map(cell_value, 0, 600, 0, 160);
@@ -101,7 +86,6 @@ void Screen1View::tick_func(){
 				index++;
 			}
 		}
-
 	}
 }
 
