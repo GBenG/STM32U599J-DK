@@ -2,6 +2,11 @@
 #include <touchgfx/Color.hpp>
 #include <stdlib.h>
 #include <stdint.h>
+#include "vl53l5cx_api.h"
+#include "FreeRTOS.h"
+#include "cmsis_os2.h"
+
+extern osMessageQueueId_t vlQueueHandle;
 
 #define COLS 8
 #define ROWS 8
@@ -56,16 +61,23 @@ void Screen1View::tick_func(){
 //		}
 //	}
 
-	//Draw cells
-	uint16_t index = 0;
-	for(uint8_t r = 0; r < ROWS; r ++ ){
-		for(uint8_t c = 0; c < COLS; c ++ ){
-			//box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
-			//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r], 255, 255));
-			box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r]-rand()%5, 255, 255));//NoizeMC
-			box[index].invalidate();
-			index++;
+	static VL53L5CX_ResultsData Results;
+
+	if (osMessageQueueGet( vlQueueHandle, &Results, 0U, 0) == osOK) {
+
+		//Draw cells
+		uint16_t index = 0;
+		for(uint8_t r = 0; r < ROWS; r ++ ){
+			for(uint8_t c = 0; c < COLS; c ++ ){
+				//box[index].setColor(touchgfx::Color::getColorFromRGB(0, 119, 178));
+				//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r], 255, 255));
+				//box[index].setColor(touchgfx::Color::getColorFromHSV(grid[c][r]-rand()%5, 255, 255));//NoizeMC
+				box[index].setColor(touchgfx::Color::getColorFromHSV(Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * index], 255, 255));//NoizeMC
+				box[index].invalidate();
+				index++;
+			}
 		}
+
 	}
 }
 

@@ -29,6 +29,7 @@
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
+typedef StaticQueue_t osStaticMessageQDef_t;
 /* USER CODE BEGIN PTD */
 
 /* USER CODE END PTD */
@@ -66,6 +67,17 @@ const osThreadAttr_t GUI_Task_attributes = {
   .name = "GUI_Task",
   .priority = (osPriority_t) osPriorityNormal,
   .stack_size = 8192 * 4
+};
+/* Definitions for vlQueue */
+osMessageQueueId_t vlQueueHandle;
+uint8_t vlQueueBuffer[ 64 * sizeof( VL53L5CX_ResultsData ) ];
+osStaticMessageQDef_t vlQueueControlBlock;
+const osMessageQueueAttr_t vlQueue_attributes = {
+  .name = "vlQueue",
+  .cb_mem = &vlQueueControlBlock,
+  .cb_size = sizeof(vlQueueControlBlock),
+  .mq_mem = &vlQueueBuffer,
+  .mq_size = sizeof(vlQueueBuffer)
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -143,6 +155,8 @@ void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN RTOS_TIMERS */
   /* start timers, add new ones, ... */
   /* USER CODE END RTOS_TIMERS */
+  /* creation of vlQueue */
+  vlQueueHandle = osMessageQueueNew (64, sizeof(VL53L5CX_ResultsData), &vlQueue_attributes);
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
@@ -196,6 +210,7 @@ void get_data_by_polling(VL53L5CX_Configuration *p_dev){
 					Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * i],
 					Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * i]);
 		}
+		osMessageQueuePut( vlQueueHandle, &Results, 0U, 0 );
 	}else{
 		HAL_Delay(5);
 	}
