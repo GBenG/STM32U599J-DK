@@ -66,13 +66,12 @@ void Screen1View::tick_func(){
 				int16_t cell_value;
 
 				//Errors exceptions
-			    if( Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * index] == 0 ){
-			    	cell_value = 600;
-			    }
-			    else if( Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * index] == 255 ){
-			    	cell_value = 600;
+			    if( ( Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * index] == 5 )||
+			    	( Results.target_status[VL53L5CX_NB_TARGET_PER_ZONE * index] == 9 ) )
+			    {
+			    	cell_value = Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * index];
 			    }else{
-			      cell_value = Results.distance_mm[VL53L5CX_NB_TARGET_PER_ZONE * index];
+			    	cell_value = 600;
 			    }
 
 			    //Noise exception
