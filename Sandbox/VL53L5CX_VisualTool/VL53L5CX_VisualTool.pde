@@ -7,6 +7,7 @@ import     processing.serial.*;
 Serial_port serial_left = new Serial_port();
 
 int[][] values = new int[8][8]; // Create
+int[][] exvals = new int[16][16]; // Create
 
 int rectSize = 90;
 
@@ -27,9 +28,15 @@ void setup()
   colorMode(HSB, 255);
   
   //Init array
+  for (int i = 0; i < 16; i++) {
+    for (int j = 0; j < 16; j++) {
+      exvals[i][j] = 600;
+    }
+  }
   for (int i = 0; i < 8; i++) {
     for (int j = 0; j < 8; j++) {
-      values[i][j] = 600;
+      values[i][j] = int(random(500,550));
+      exvals[i*2][j*2] = values[i][j];
     }
   }
 }
@@ -61,17 +68,38 @@ void draw()
 //-------------------------------------------------------- 
 //3D
 //-------------------------------------------------------- 
-  translate(width / 2, height / 2, -200);
+  translate(width/2+100, height/2, -100);
   rotateX(PI / 4);
-  rotateZ(PI / 4);
+  rotateZ(PI / 1);
   
-  float boxSize = 80;
-
+  //Draft interpolation
   for (int i = 0; i < 8; i++) {
     for (int j = 0; j < 8; j++) {
+      exvals[i*2][j*2] = values[i][j];
+    }
+  }
+  for (int i = 0; i < 15; i++) {
+    for (int j = 0; j < 15; j++) {
+      if( i % 2 == 0 ){
+        if( i < 14 ) exvals[i+1][j] = (exvals[i][j]+exvals[i+2][j])/2;
+      }
+    }
+  }
+  for (int i = 0; i < 15; i++) {
+    for (int j = 0; j < 15; j++) {
+      if( j % 2 == 0 ){
+        if( j < 14 ) exvals[i][j+1] = (exvals[i][j]+exvals[i][j+2])/2;
+      }
+    }
+  }
+  
+  float boxSize = 40;
+
+  for (int i = 0; i < 15; i++) {
+    for (int j = 0; j < 15; j++) {
       float x = i * boxSize - 3.5 * boxSize;
       float y = j * boxSize - 3.5 * boxSize;
-      float z = 600-values[i][j];
+      float z = 600-exvals[i][j];
 
       // Map the value to a color
       if( z < 0 ) z = 0;//Clear noise
@@ -80,8 +108,8 @@ void draw()
       stroke(0);
 
       pushMatrix();
-      translate(x, y, z / 3);
-      box(boxSize, boxSize, z);
+      translate(x, y, (z/4) / 3);
+      box(boxSize, boxSize, z/4);
       popMatrix();
     }
   }
